@@ -20,7 +20,18 @@ p {
 }
 
 a {
-    color: blue;
+    color: #3498db;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #2980b9;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 header {
@@ -62,10 +73,5 @@ footer {
         align-items: center;
         flex-direction: column;
         gap: 10px;
-    }
-
-    img {
-        max-width: 100%;
-        height: auto;
     }
 }
