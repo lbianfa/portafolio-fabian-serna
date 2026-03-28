@@ -48,3 +48,24 @@ footer {
     padding: 20px;
     text-align: center;
 }
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    header {
+        padding: 15px;
+    }
+
+    .nav-links {
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
