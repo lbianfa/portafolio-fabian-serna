@@ -29,6 +29,12 @@ header {
     padding: 30px;
 }
 
+.nav-links {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
 .section {
     padding: 20px;
     margin: 20px 0;
